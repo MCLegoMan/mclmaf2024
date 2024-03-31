@@ -114,6 +114,8 @@ There's a few easter eggs in this mod, however I'm not going to spoil them. You 
   - This mod was made for April Fools' and wasn't developed with mod compatibility in mind.
   - Mods that change post-processing shaders, mobs, and/or world generation may be incompatible or have bugs.
   - Use at your own risk.
+- Do you accept pull requests for updates to the mod?
+  - Yes, I'll accept and upload new versions of the mod when pull requests are made that fix bugs or update to newer versions.
 
 #
 _This mod was created for April Fools' 2024, and is likely to contain bugs. Use at your own risk._  
