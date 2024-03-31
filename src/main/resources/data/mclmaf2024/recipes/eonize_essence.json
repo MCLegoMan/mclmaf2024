@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		[
+			{
+				"tag": "mclmaf2024:eonized_flowers"
+			}
+		]
+	],
+	"result": {
+		"id": "mclmaf2024:eonize_essence"
+	}
+}

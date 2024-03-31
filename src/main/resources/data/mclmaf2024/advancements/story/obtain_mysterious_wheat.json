@@ -1,0 +1,33 @@
+{
+	"parent": "mclmaf2024:story/mine_mysterious",
+	"criteria": {
+		"mysterious_wheat": {
+			"conditions": {
+				"items": [
+					{
+						"items": "mclmaf2024:mysterious_wheat"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.mclmaf2024.obtain_mysterious_wheat.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "mclmaf2024:mysterious_wheat"
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.obtain_mysterious_wheat.title"
+		}
+	},
+	"requirements": [
+		[
+			"mysterious_wheat"
+		]
+	],
+	"sends_telemetry_event": false
+}

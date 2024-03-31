@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "mclmaf2024:exchanger",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.exchanging_items.title"
+		},
+		"description": {
+			"translate": "advancements.mclmaf2024.exchanging_items.description"
+		}
+	},
+	"parent": "mclmaf2024:story/mine_mysterious",
+	"criteria": {
+		"exchanger": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "mclmaf2024:exchanger"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"exchanger"
+		]
+	],
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "mclmaf2024:block/deepslate_mysterious_ore"
+	}
+}

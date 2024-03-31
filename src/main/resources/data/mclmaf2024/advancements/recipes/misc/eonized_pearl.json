@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_eonize_essence": {
+			"conditions": {
+				"items": [
+					{
+						"items": "mclmaf2024:eonize_essence"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_ender_eye": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:ender_eye"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "mclmaf2024:eonized_pearl"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_eonize_essence",
+			"has_ender_eye"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"mclmaf2024:eonized_pearl"
+		]
+	}
+}

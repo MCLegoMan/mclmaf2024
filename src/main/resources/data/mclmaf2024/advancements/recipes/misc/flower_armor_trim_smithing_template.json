@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_trim": {
+			"conditions": {
+				"items": [
+					{
+						"items": "mclmaf2024:flower_armor_trim_smithing_template"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "mclmaf2024:flower_armor_trim_smithing_template"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_trim"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"mclmaf2024:flower_armor_trim_smithing_template"
+		]
+	}
+}

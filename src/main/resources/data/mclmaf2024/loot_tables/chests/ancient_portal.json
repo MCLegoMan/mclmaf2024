@@ -1,0 +1,200 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 75
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mclmaf2024:frog_banner_pattern",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mclmaf2024:flower_armor_trim_smithing_template",
+					"weight": 4
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:stored_enchantments": {
+									"mclmaf2024:anti_gravity": 1
+								}
+							}
+						}
+					],
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:stored_enchantments": {
+									"mclmaf2024:anti_anti_gravity": 1
+								}
+							}
+						}
+					],
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:mysterious_gem",
+					"weight": 20
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 4.0,
+				"min": 2.0
+			}
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3.0,
+								"min": 1.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:diamond",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5.0,
+								"min": 1.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:iron_ingot",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 7.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_ingot",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3.0,
+								"min": 1.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:emerald",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_horse_armor",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_horse_armor",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_horse_armor",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 15
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 4.0,
+				"min": 2.0
+			}
+		}
+	],
+	"random_sequence": "mclmaf2024:chests/ancient_portal"
+}

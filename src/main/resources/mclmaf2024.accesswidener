@@ -1,0 +1,7 @@
+accessWidener v2 named
+accessible method net/minecraft/loot/LootTables registerLootTable (Lnet/minecraft/registry/RegistryKey;)Lnet/minecraft/registry/RegistryKey;
+accessible class net/minecraft/entity/passive/BeeEntity$PollinateGoal
+accessible method net/minecraft/entity/passive/BeeEntity setHasNectar (Z)V
+accessible method net/minecraft/entity/LivingEntity getGravity ()D
+accessible method net/minecraft/world/biome/Biome computeTemperature (Lnet/minecraft/util/math/BlockPos;)F
+accessible field net/minecraft/entity/Entity FROZEN_TICKS Lnet/minecraft/entity/data/TrackedData;

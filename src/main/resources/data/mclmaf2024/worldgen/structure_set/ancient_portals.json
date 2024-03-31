@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 23302048,
+    "separation": 4,
+    "spacing": 28
+  },
+  "structures": [
+    {
+      "structure": "mclmaf2024:ancient_portal",
+      "weight": 1
+    }
+  ]
+}

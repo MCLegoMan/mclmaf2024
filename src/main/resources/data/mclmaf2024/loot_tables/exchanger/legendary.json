@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:mysterious_ore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:deepslate_mysterious_ore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:mysterious_gem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:mysterious_block",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:exchanger",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:frog_banner_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "mclmaf2024:anti_gravity": 1
+                }
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "mclmaf2024:anti_anti_gravity": 1
+                }
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:mysterious_wheat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:eonized_dandelion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:eonized_poppy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:eonized_short_grass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:eonize_essence",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:eonized_pearl",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mclmaf2024:flower_armor_trim_smithing_template",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mclmaf2024:exchanger/common"
+}

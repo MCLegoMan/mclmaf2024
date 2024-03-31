@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "mclmaf2024:eonize_essence"
+		},
+		{
+			"item": "minecraft:ender_eye"
+		}
+	],
+	"result": {
+		"id": "mclmaf2024:eonized_pearl"
+	}
+}

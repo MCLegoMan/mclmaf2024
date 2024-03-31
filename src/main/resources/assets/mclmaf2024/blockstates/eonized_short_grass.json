@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"mclmaf2024_natural=true": {
+			"model": "mclmaf2024:block/eonized_short_grass_natural"
+		},
+		"mclmaf2024_natural=false": {
+			"model": "mclmaf2024:block/eonized_short_grass"
+		}
+	}
+}

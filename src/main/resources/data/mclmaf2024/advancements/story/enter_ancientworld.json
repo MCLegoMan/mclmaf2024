@@ -1,0 +1,30 @@
+
+{
+	"parent": "mclmaf2024:story/find_ancient_portal",
+	"criteria": {
+		"entered_ancientworld": {
+			"conditions": {
+				"to": "mclmaf2024:ancientworld"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.mclmaf2024.enter_ancientworld.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "mclmaf2024:ancient_portal_frame"
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.enter_ancientworld.title"
+		}
+	},
+	"requirements": [
+		[
+			"entered_ancientworld"
+		]
+	],
+	"sends_telemetry_event": false
+}

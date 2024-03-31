@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "mclmaf2024",
+	"version": "${version}",
+	"name": "April Fools' 2024",
+	"description": "MCLegoMan's 2024 April Fools' Mod",
+	"authors": [
+		"MCLegoMan"
+	],
+	"contributors": [
+	],
+	"contact": {
+		"homepage": "https://github.com/MCLegoMan/",
+		"sources": "https://github.com/MCLegoMan/AprilFools2024/",
+		"issues": "https://github.com/MCLegoMan/AprilFools2024/issues"
+	},
+	"license": [
+		"LGPL-3.0-or-later"
+	],
+	"icon": "assets/mclmaf2024/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mclegoman.mclmaf2024.common.Main"
+		],
+		"client": [
+			"com.mclegoman.mclmaf2024.client.ClientMain"
+		]
+	},
+	"mixins": [
+		"mclmaf2024.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17"
+	},
+	"accessWidener" : "mclmaf2024.accesswidener"
+}

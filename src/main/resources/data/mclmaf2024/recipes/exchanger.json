@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "M": {
+      "item": "mclmaf2024:mysterious_gem"
+    },
+    "B": {
+      "item": "mclmaf2024:mysterious_block"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MDM",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mclmaf2024:exchanger"
+  }
+}

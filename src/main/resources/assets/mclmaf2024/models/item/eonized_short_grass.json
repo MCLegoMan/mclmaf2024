@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "mclmaf2024:block/eonized_short_grass"
+	}
+}

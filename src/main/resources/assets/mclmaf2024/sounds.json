@@ -1,0 +1,45 @@
+{
+	"entity.ancient_moobloom.deeonize": {
+		"sounds": [
+			"mclmaf2024:entity/ancient_moobloom/deeonize"
+		],
+		"subtitle": "subtitles.mclmaf2024.entity.anicent_moobloom.deeonize"
+	},
+	"entity.ancient_moobloom.shear": {
+		"sounds": [
+			"mob/sheep/shear"
+		],
+		"subtitle": "subtitles.item.shears.shear"
+	},
+	"entity.moobloom.shear": {
+		"sounds": [
+			"mob/sheep/shear"
+		],
+		"subtitle": "subtitles.item.shears.shear"
+	},
+	"entity.moobloom.eonize": {
+		"sounds": [
+			"mclmaf2024:entity/moobloom/eonize"
+		],
+		"subtitle": "subtitles.mclmaf2024.entity.moobloom.eonize"
+	},
+	"block.ancient_portal.ambience": {
+		"sounds": [
+			"mclmaf2024:block/ancient_portal/ambience"
+		],
+		"subtitle": "subtitles.mclmaf2024.block.ancient_portal.ambience"
+	},
+	"block.ancient_portal.open": {
+		"sounds": [
+			"mclmaf2024:block/ancient_portal/open"
+		],
+		"subtitle": "subtitles.mclmaf2024.block.ancient_portal.open"
+	},
+	"block.ancient_portal_frame.eonize": {
+		"sounds": [
+			"mclmaf2024:block/ancient_portal_frame/eonize"
+		],
+		"subtitle": "subtitles.mclmaf2024.block.ancient_portal_frame.eonize"
+	}
+}
+

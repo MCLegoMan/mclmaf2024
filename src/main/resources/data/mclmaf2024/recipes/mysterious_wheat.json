@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "M": {
+      "item": "mclmaf2024:mysterious_gem"
+    },
+    "T": {
+      "item": "minecraft:torchflower"
+    }
+  },
+  "pattern": [
+    "MTM",
+    "TWT",
+    "MTM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mclmaf2024:mysterious_wheat"
+  }
+}

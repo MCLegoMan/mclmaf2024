@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "mclmaf2024:block/eonized_short_grass_natural"
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"itemGroup.mclmaf2024.mclmaf2024": "April Fools 2024",
+
+	"item.mclmaf2024.mysterious_gem": "Mysterious Gem",
+	"item.mclmaf2024.mysterious_wheat": "Mysterious Wheat",
+	"item.mclmaf2024.eonize_essence": "Eonize Essence",
+	"item.mclmaf2024.eonized_pearl": "Eonized Pearl",
+	"item.mclmaf2024.frog_banner_pattern": "Banner Pattern",
+	"item.mclmaf2024.frog_banner_pattern.desc": "Frog",
+	"item.mclmaf2024.ancient_moobloom_spawn_egg": "Ancient Moobloom Spawn Egg",
+	"item.mclmaf2024.moobloom_spawn_egg": "Moobloom Spawn Egg",
+	"item.mclmaf2024.flower_armor_trim_smithing_template": "Smithing Template",
+
+	"block.mclmaf2024.mysterious_ore": "Mysterious Ore",
+	"block.mclmaf2024.deepslate_mysterious_ore": "Deepslate Mysterious Ore",
+	"block.mclmaf2024.mysterious_block": "Mysterious Block",
+	"block.mclmaf2024.ancient_portal_frame": "Ancient Portal Frame",
+	"block.mclmaf2024.ancient_portal": "Ancient Portal",
+	"block.mclmaf2024.exchanger": "Exchanger",
+	"block.mclmaf2024.eonized_dandelion": "Eonized Dandelion",
+	"block.mclmaf2024.potted_eonized_dandelion": "Potted Eonized Dandelion",
+	"block.mclmaf2024.eonized_poppy": "Eonized Poppy",
+	"block.mclmaf2024.potted_eonized_poppy": "Potted Eonized Poppy",
+	"block.mclmaf2024.eonized_short_grass": "Eonized Short Grass",
+
+	"block.mclmaf2024.banner.frog.black": "Black Frog",
+	"block.mclmaf2024.banner.frog.blue": "Blue Frog",
+	"block.mclmaf2024.banner.frog.brown": "Brown Frog",
+	"block.mclmaf2024.banner.frog.cyan": "Cyan Frog",
+	"block.mclmaf2024.banner.frog.gray": "Gray Frog",
+	"block.mclmaf2024.banner.frog.green": "Green Frog",
+	"block.mclmaf2024.banner.frog.light_blue": "Light Blue Frog",
+	"block.mclmaf2024.banner.frog.light_gray": "Light Gray Frog",
+	"block.mclmaf2024.banner.frog.lime": "Lime Frog",
+	"block.mclmaf2024.banner.frog.magenta": "Magenta Frog",
+	"block.mclmaf2024.banner.frog.orange": "Orange Frog",
+	"block.mclmaf2024.banner.frog.pink": "Pink Frog",
+	"block.mclmaf2024.banner.frog.purple": "Purple Frog",
+	"block.mclmaf2024.banner.frog.red": "Red Frog",
+	"block.mclmaf2024.banner.frog.white": "White Frog",
+	"block.mclmaf2024.banner.frog.yellow": "Yellow Frog",
+
+	"entity.mclmaf2024.ancient_moobloom": "Ancient Moobloom",
+	"entity.mclmaf2024.moobloom": "Moobloom",
+
+	"container.exchanger": "Exchanger",
+
+	"itemStack.mclmaf2024.exchanged": "Exchanged",
+
+	"trim_pattern.mclmaf2024.flower": "Flower Armor Trim",
+
+	"trim_material.mclmaf2024.mysterious": "Mysterious Material",
+
+	"advancements.mclmaf2024.mine_mysterious.title": "Kinda Sus",
+	"advancements.mclmaf2024.mine_mysterious.description": "Mysterious!",
+
+	"advancements.mclmaf2024.exchanging_items.title": "Think of the Villagers!",
+	"advancements.mclmaf2024.exchanging_items.description": "Use an Exchanger to exchange your old items",
+
+	"advancements.mclmaf2024.obtain_mysterious_wheat.title": "Temporal Sustenance",
+	"advancements.mclmaf2024.obtain_mysterious_wheat.description": "Craft Mysterious Wheat",
+
+	"advancements.mclmaf2024.obtain_eonized_flower.title": "Wibbly-Wobbly Timey-Wimey",
+	"advancements.mclmaf2024.obtain_eonized_flower.description": "Eonize a Moobloom into an Ancient Moobloom",
+
+	"advancements.mclmaf2024.find_ancient_portal.title": "Eon-location",
+	"advancements.mclmaf2024.find_ancient_portal.description": "Locate an Ancient Portal using an Eonized Pearl",
+
+	"advancements.mclmaf2024.enter_ancientworld.title": "A long time ago...",
+	"advancements.mclmaf2024.enter_ancientworld.description": "Enter the Ancientworld",
+
+	"enchantment.mclmaf2024.anti_gravity": "Anti-Gravity",
+	"enchantment.mclmaf2024.anti_anti_gravity": "Anti-Anti-Gravity",
+
+	"subtitles.mclmaf2024.entity.moobloom.eonize": "Moobloom eonizes",
+	"subtitles.mclmaf2024.entity.anicent_moobloom.deeonize": "Ancient Moobloom de-eonizes",
+	"subtitles.mclmaf2024.block.ancient_portal.ambience": "Ancient Portal whooshes",
+	"subtitles.mclmaf2024.block.ancient_portal.open": "Ancient Portal opens",
+	"subtitles.mclmaf2024.block.ancient_portal_frame.eonize": "Eonized Pearl attaches",
+
+	"chat.mclmaf2024.kappa.pescatarian": "You may only eat vegetables or fish.",
+	"chat.mclmaf2024.kappa.iron_allergy": "You are allergic to iron."
+}

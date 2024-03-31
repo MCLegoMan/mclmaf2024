@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:story/iron_tools",
+	"criteria": {
+		"mysterious": {
+			"conditions": {
+				"items": [
+					{
+						"items": "mclmaf2024:mysterious_gem"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.mclmaf2024.mine_mysterious.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "mclmaf2024:mysterious_gem"
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.mine_mysterious.title"
+		}
+	},
+	"requirements": [
+		[
+			"mysterious"
+		]
+	],
+	"sends_telemetry_event": false
+}

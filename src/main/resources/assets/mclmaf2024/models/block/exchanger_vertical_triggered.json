@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/orientable_vertical",
+	"textures": {
+		"front": "mclmaf2024:block/exchanger_front_triggered",
+		"side": "minecraft:block/furnace_top"
+	}
+}

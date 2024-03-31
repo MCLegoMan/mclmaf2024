@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_eonized_flower": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#mclmaf2024:eonized_flowers"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "mclmaf2024:eonize_essence"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_eonized_flower"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"mclmaf2024:eonize_essence"
+		]
+	}
+}

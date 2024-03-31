@@ -1,0 +1,39 @@
+{
+	"parent": "mclmaf2024:story/obtain_eonized_flower",
+	"criteria": {
+		"ancient_portal": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "mclmaf2024:ancient_portal"
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.mclmaf2024.find_ancient_portal.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "mclmaf2024:eonized_pearl"
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.find_ancient_portal.title"
+		}
+	},
+	"requirements": [
+		[
+			"ancient_portal"
+		]
+	],
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mclmaf2024:ancientworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mclmaf2024:ancient_plains"
+    }
+  }
+}

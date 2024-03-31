@@ -1,0 +1,33 @@
+{
+	"parent": "mclmaf2024:story/obtain_mysterious_wheat",
+	"criteria": {
+		"eonized_flowers": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#mclmaf2024:eonized_flowers"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "advancements.mclmaf2024.obtain_eonized_flower.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "mclmaf2024:eonized_dandelion"
+		},
+		"title": {
+			"translate": "advancements.mclmaf2024.obtain_eonized_flower.title"
+		}
+	},
+	"requirements": [
+		[
+			"eonized_flowers"
+		]
+	],
+	"sends_telemetry_event": false
+}

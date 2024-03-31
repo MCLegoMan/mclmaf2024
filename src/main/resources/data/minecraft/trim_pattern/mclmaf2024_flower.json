@@ -1,0 +1,8 @@
+{
+  "asset_id": "minecraft:mclmaf2024_flower",
+  "decal": true,
+  "description": {
+    "translate": "trim_pattern.mclmaf2024.flower"
+  },
+  "template_item": "mclmaf2024:flower_armor_trim_smithing_template"
+}

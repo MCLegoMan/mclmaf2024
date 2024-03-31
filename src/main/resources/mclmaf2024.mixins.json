@@ -1,0 +1,26 @@
+{
+	"required": true,
+	"package": "com.mclegoman.mclmaf2024.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"common.BeeEntityMixin",
+		"common.EntityMixin",
+		"common.IronGolemEntityMixin",
+		"common.ItemMixin",
+		"common.LivingEntityMixin",
+		"common.MooshroomEntityMixin",
+		"common.PigEntityMixin",
+		"common.PlayerEntityMixin",
+		"common.ServerWorldMixin"
+	],
+	"client": [
+		"client.DebugHudMixin",
+		"client.GameRendererMixin",
+		"client.LivingEntityRendererMixin",
+		"client.MouseMixin",
+		"client.PigEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

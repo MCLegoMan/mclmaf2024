@@ -1,0 +1,238 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:stored_enchantments": {
+									"mclmaf2024:anti_gravity": 1
+								}
+							}
+						}
+					],
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:stored_enchantments": {
+									"mclmaf2024:anti_anti_gravity": 1
+								}
+							}
+						}
+					],
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mclmaf2024:flower_armor_trim_smithing_template",
+					"weight": 4
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mclmaf2024:frog_banner_pattern",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:mysterious_gem",
+					"weight": 20
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 2.0,
+				"min": 1.0
+			}
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6.0,
+								"min": 3.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:wheat",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 9.0,
+								"min": 3.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:bread",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 16.0,
+								"min": 4.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:mysterious_wheat",
+					"weight": 2
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 4.0,
+				"min": 2.0
+			}
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6.0,
+								"min": 3.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:eonize_essence",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 16.0,
+								"min": 4.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:eonized_dandelion",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "mclmaf2024:eonized_poppy",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:torchflower",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4.0,
+								"min": 2.0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:pitcher_plant",
+					"weight": 6
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 6.0,
+				"min": 3.0
+			}
+		}
+	],
+	"random_sequence": "mclmaf2024:chests/ancient_house"
+}

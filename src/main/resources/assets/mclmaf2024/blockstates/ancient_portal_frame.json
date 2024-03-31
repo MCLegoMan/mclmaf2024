@@ -1,0 +1,34 @@
+{
+	"variants": {
+		"mclmaf2024_eonized=false,facing=east": {
+			"model": "mclmaf2024:block/ancient_portal_frame",
+			"y": 270
+		},
+		"mclmaf2024_eonized=false,facing=north": {
+			"model": "mclmaf2024:block/ancient_portal_frame",
+			"y": 180
+		},
+		"mclmaf2024_eonized=false,facing=south": {
+			"model": "mclmaf2024:block/ancient_portal_frame"
+		},
+		"mclmaf2024_eonized=false,facing=west": {
+			"model": "mclmaf2024:block/ancient_portal_frame",
+			"y": 90
+		},
+		"mclmaf2024_eonized=true,facing=east": {
+			"model": "mclmaf2024:block/ancient_portal_frame_filled",
+			"y": 270
+		},
+		"mclmaf2024_eonized=true,facing=north": {
+			"model": "mclmaf2024:block/ancient_portal_frame_filled",
+			"y": 180
+		},
+		"mclmaf2024_eonized=true,facing=south": {
+			"model": "mclmaf2024:block/ancient_portal_frame_filled"
+		},
+		"mclmaf2024_eonized=true,facing=west": {
+			"model": "mclmaf2024:block/ancient_portal_frame_filled",
+			"y": 90
+		}
+	}
+}
