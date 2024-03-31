@@ -31,8 +31,9 @@
 		"mclmaf2024.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.20.4",
+		"fabricloader": "*",
+		"fabric": "*",
+		"minecraft": "1.20.5-alpha.24.13.a",
 		"java": ">=17"
 	},
 	"accessWidener" : "mclmaf2024.accesswidener"
