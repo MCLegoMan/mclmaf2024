@@ -116,4 +116,8 @@ There's a few easter eggs in this mod, however I'm not going to spoil them. You 
   - Use at your own risk.
 
 #
-This mod was created for April Fools' 2024, and is likely to contain bugs. Use at your own risk.
+_This mod was created for April Fools' 2024, and is likely to contain bugs. Use at your own risk._  
+
+Licensed under LGPL-3.0-or-later.  
+
+**This mod is not affiliated with/endorsed by Mojang Studios or Microsoft.**
