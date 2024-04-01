@@ -12,6 +12,7 @@ public class LootTablesRegistry {
 	public static final RegistryKey<LootTable> exchangerRare;
 	public static final RegistryKey<LootTable> exchangerEpic;
 	public static final RegistryKey<LootTable> exchangerLegendary;
+	public static final RegistryKey<LootTable> exchangerPotato;
 	public static final RegistryKey<LootTable> eonizeMoobloom;
 	public static void init() {
 	}
@@ -21,6 +22,7 @@ public class LootTablesRegistry {
 		exchangerRare = LootTables.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, new Identifier("mclmaf2024", "exchanger/rare")));
 		exchangerEpic = LootTables.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, new Identifier("mclmaf2024", "exchanger/epic")));
 		exchangerLegendary = LootTables.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, new Identifier("mclmaf2024", "exchanger/legendary")));
+		exchangerPotato = LootTables.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, new Identifier("mclmaf2024", "exchanger/potato")));
 		eonizeMoobloom = LootTables.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, new Identifier("mclmaf2024", "entities/eonize_moobloom")));
 	}
 }

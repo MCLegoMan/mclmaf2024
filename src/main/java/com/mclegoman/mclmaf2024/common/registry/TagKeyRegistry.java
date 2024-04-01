@@ -13,6 +13,7 @@ public class TagKeyRegistry {
 	public static final TagKey<Item> exchangerUncommon;
 	public static final TagKey<Item> exchangerRare;
 	public static final TagKey<Item> exchangerEpic;
+	public static final TagKey<Item> exchangerPotato;
 	public static final TagKey<Item> technobladeCrown;
 	public static final TagKey<Item> ancientMoobloomFood;
 	public static final TagKey<Item> moobloomFood;
@@ -31,6 +32,7 @@ public class TagKeyRegistry {
 		exchangerUncommon = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "exchanger/uncommon_override"));
 		exchangerRare = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "exchanger/rare_override"));
 		exchangerEpic = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "exchanger/epic_override"));
+		exchangerPotato = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "exchanger/potato_override"));
 		technobladeCrown = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "technoblade_crown"));
 		ancientMoobloomFood = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "ancient_moobloom_food"));
 		moobloomFood = TagKey.of(RegistryKeys.ITEM, new Identifier("mclmaf2024", "moobloom_food"));

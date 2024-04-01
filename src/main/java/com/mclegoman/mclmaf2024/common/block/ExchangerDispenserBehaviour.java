@@ -39,7 +39,9 @@ public class ExchangerDispenserBehaviour implements DispenserBehavior {
 			if (lootTable != null) exchange(lootTable.lootTable(), 1, pointer, direction, position);
 		} else {
 			if (itemStack.getRarity() == itemStack.getItem().getDefaultStack().getRarity()) {
-				if (itemStack.isIn(TagKeyRegistry.exchangerEpic)) {
+				if (itemStack.isIn(TagKeyRegistry.exchangerPotato)) {
+					dispenseExchange(Rarity.POTATO, pointer, direction, position);
+				} else if (itemStack.isIn(TagKeyRegistry.exchangerEpic)) {
 					dispenseExchange(Rarity.EPIC, pointer, direction, position);
 				} else if (itemStack.isIn(TagKeyRegistry.exchangerRare)) {
 					dispenseExchange(Rarity.RARE, pointer, direction, position);
@@ -75,6 +77,10 @@ public class ExchangerDispenserBehaviour implements DispenserBehavior {
 				case EPIC -> {
 					if (lootTableInt <= 35) exchange(LootTablesRegistry.exchangerRare, 2, pointer, direction, position);
 					else exchange(LootTablesRegistry.exchangerEpic, 1, pointer, direction, position);
+				}
+				case POTATO -> {
+					if (lootTableInt <= 35) exchange(LootTablesRegistry.exchangerEpic, 2, pointer, direction, position);
+					else exchange(LootTablesRegistry.exchangerPotato, 1, pointer, direction, position);
 				}
 			}
 		} else {

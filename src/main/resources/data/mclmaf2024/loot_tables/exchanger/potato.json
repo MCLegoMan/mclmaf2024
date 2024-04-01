@@ -1,0 +1,668 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_plant",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_fries",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_slices",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_sticks",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_chips",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:hash_browns",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_eye",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_of_knowledge",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snektato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:hot_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_pota_toes",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_chestplate",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_polytra",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_battery",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_cutter",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:frying_table",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_refinery",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_oil",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_oil",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:toxic_beam",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lashing_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_peeler",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dent",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:floatato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:floatater",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_poisonous_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_poisonous_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_staff",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:big_brain",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_poisonous_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_hammer",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:powerful_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:strong_roots",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:weak_roots",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:toxic_resin",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amber_gem",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amber_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_bud",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_stem",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_planks",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_fence",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_fence_gate",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_door",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_trapdoor",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_button",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_pressure_plate",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_sign",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_hanging_sign",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_leaves",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_fruit",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_pedicule",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_sprouts",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:terredepomme",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:peelgrass_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:corrupted_peelgrass_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poison_farmland",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gravtater",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:vicious_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:deepslate_poisonous_potato_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:resin_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_copper_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_iron_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_gold_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_redstone_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_lapis_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_diamond_ore",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potone_wall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:taterstone",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:taterstone_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:taterstone_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:taterstone_wall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato_bricks",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato_brick_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato_brick_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato_brick_wall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:expired_baked_potato_bricks",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:expired_baked_potato_brick_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:expired_baked_potato_brick_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:expired_baked_potato_brick_wall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charred_baked_potato_bricks",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charred_baked_potato_brick_slab",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charred_baked_potato_brick_stairs",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charred_baked_potato_brick_wall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_mashed_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compressed_poisonous_potato_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:double_compressed_poisonous_potato_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:triple_compressed_poisonous_potato_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:quadruple_compressed_poisonous_potato_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_zombie_head_hat",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato_zombie_head_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:corrupted_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:orange_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:magenta_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_blue_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:yellow_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lime_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pink_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gray_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cyan_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:purple_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blue_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:green_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_potato_peels",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:corrupted_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:orange_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:magenta_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_blue_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:yellow_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lime_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pink_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gray_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cyan_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:purple_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blue_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:green_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_potato_peels_block",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_potato_peels_block",
+					"weight": 1
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "mclmaf2024:exchanger/potato"
+}
