@@ -10,3 +10,6 @@ I will accept pull requests for any community updates that fix bugs.
 - Beds don't actually work in ancientworld.
   - The time in overworld and ancientworld preferrably would be linked allowing for players to sleep to pass the time in both.  
 - The portal room should really be underground however blocks generate inside of it even though they should be air.
+
+If updating to a non-potato verison, use this branch.
+- The title screen should also be ported over, it should only need to have it's namespace changed to minecraft afaik.
