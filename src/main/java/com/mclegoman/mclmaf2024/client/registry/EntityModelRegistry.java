@@ -18,6 +18,7 @@ public class EntityModelRegistry {
 		EntityRendererRegistry.register(EntityRegistry.moobloom, MoobloomEntityRenderer::new);
 		EntityModelLayerRegistry.registerModelLayer(moobloom, MoobloomEntityModel::getTexturedModelData);
 		EntityRendererRegistry.register(EntityRegistry.ancientMoobloom, MoobloomEntityRenderer::new);
+		EntityRendererRegistry.register(EntityRegistry.potatoMoobloom, MoobloomEntityRenderer::new);
 		EntityModelLayerRegistry.registerModelLayer(moobloomOverlay, MoobloomEntityModel::getTexturedOverlayModelData);
 		EntityModelLayerRegistry.registerModelLayer(pigOverlay, () -> PigEntityModel.getTexturedModelData(new Dilation(0.498F)));
 	}

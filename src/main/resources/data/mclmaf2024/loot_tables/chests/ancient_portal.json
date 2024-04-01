@@ -200,21 +200,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"functions": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 4.0,
-								"min": 1.0
-							},
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:poisonous_potato",
+					"name": "mclmaf2024:poisonous_potato",
 					"weight": 1
 				}
-			]
+			],
+			"rolls": 1.0
 		}
 	],
 	"random_sequence": "mclmaf2024:chests/ancient_portal"

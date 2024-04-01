@@ -1,6 +1,7 @@
 package com.mclegoman.mclmaf2024.client.entity.renderer.feature;
 
 import com.mclegoman.mclmaf2024.common.entity.AncientMoobloomEntity;
+import com.mclegoman.mclmaf2024.common.entity.PotatoMoobloomEntity;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -24,7 +25,7 @@ public class MoobloomOverlayFeatureRenderer<T extends LivingEntity, M extends En
 		this.getContextModel().copyStateTo(this.model);
 		this.model.animateModel(entity, limbAngle, limbDistance, tickDelta);
 		this.model.setAngles(entity, limbAngle, limbDistance, animationProgress, headYaw, headPitch);
-		Identifier texture = entity instanceof AncientMoobloomEntity ? new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/ancient_moobloom_overlay.png") : new Identifier("mclmaf2024", "textures/entity/moobloom/moobloom_overlay.png");
+		Identifier texture = entity instanceof AncientMoobloomEntity ? new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/ancient_moobloom_overlay.png") : (entity instanceof PotatoMoobloomEntity ? new Identifier("mclmaf2024", "textures/entity/potato_moobloom/potato_moobloom_overlay.png") : new Identifier("mclmaf2024", "textures/entity/moobloom/moobloom_overlay.png"));
 		VertexConsumer vertexConsumer = vertexConsumers.getBuffer(RenderLayer.getEntityCutoutNoCull(texture));
 		this.model.render(matrices, vertexConsumer, light, LivingEntityRenderer.getOverlay(entity, 0.0F), 1.0F, 1.0F, 1.0F, 1.0F);
 	}

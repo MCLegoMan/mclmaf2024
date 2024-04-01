@@ -5,6 +5,7 @@ import com.mclegoman.mclmaf2024.client.entity.renderer.feature.MoobloomOverlayFe
 import com.mclegoman.mclmaf2024.client.registry.EntityModelRegistry;
 import com.mclegoman.mclmaf2024.common.entity.AncientMoobloomEntity;
 import com.mclegoman.mclmaf2024.common.entity.MoobloomEntity;
+import com.mclegoman.mclmaf2024.common.entity.PotatoMoobloomEntity;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.client.render.entity.model.CowEntityModel;
@@ -20,7 +21,8 @@ public class MoobloomEntityRenderer extends MobEntityRenderer<MoobloomEntity, Co
 
 	@Override
 	public Identifier getTexture(MoobloomEntity entity) {
-		if (entity instanceof AncientMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/ancient_moobloom.png");
+		if (entity instanceof AncientMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/potato_moobloom.png");
+		else if (entity instanceof PotatoMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/potato_moobloom/potato_moobloom.png");
 		else return new Identifier("mclmaf2024", "textures/entity/moobloom/moobloom.png");
 	}
 }

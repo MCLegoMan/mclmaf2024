@@ -69,10 +69,33 @@
 						}
 					],
 					"name": "minecraft:beef"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8.0,
+								"min": 4.0
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1.0,
+								"min": 0.0
+							},
+							"function": "minecraft:looting_enchant"
+						}
+					],
+					"name": "minecraft:poisonous_potato"
 				}
 			],
 			"rolls": 1.0
 		}
 	],
-	"random_sequence": "mclmaf2024:entities/ancient_moobloom"
+	"random_sequence": "mclmaf2024:entities/potato_moobloom"
 }
