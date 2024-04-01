@@ -200,7 +200,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "mclmaf2024:poisonous_potato",
+					"name": "minecraft:poisonous_potato",
 					"weight": 1
 				}
 			],
