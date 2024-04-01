@@ -33,7 +33,7 @@
 	"depends": {
 		"fabricloader": "*",
 		"fabric": "*",
-		"minecraft": "1.20.5-alpha.24.13.a",
+		"minecraft": "1.20.5-alpha.24.12.potato",
 		"java": ">=17"
 	},
 	"accessWidener" : "mclmaf2024.accesswidener"

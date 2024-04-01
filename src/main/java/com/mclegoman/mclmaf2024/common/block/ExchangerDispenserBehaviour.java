@@ -32,7 +32,7 @@ public class ExchangerDispenserBehaviour implements DispenserBehavior {
 	}
 	protected ItemStack dispenseSilently(BlockPointer pointer, ItemStack stack) {
 		Direction direction = pointer.state().get(DispenserBlock.FACING);
-		Position position = DispenserBlock.method_58682(pointer);
+		Position position = DispenserBlock.getOutputLocation(pointer);
 		ItemStack itemStack = stack.split(1);
 		if (itemStack.getComponents().contains(DataComponentTypes.CONTAINER_LOOT)) {
 			ContainerLootComponent lootTable = itemStack.getComponents().get(DataComponentTypes.CONTAINER_LOOT);
