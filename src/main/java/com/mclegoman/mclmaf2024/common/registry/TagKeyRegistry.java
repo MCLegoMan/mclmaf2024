@@ -24,6 +24,8 @@ public class TagKeyRegistry {
 	public static final TagKey<Block> eonizedFlowersBlock;
 	public static final TagKey<Block> moobloomsSpawnableOn;
 	public static final TagKey<Block> moobloomPathfindingFavor;
+	public static final TagKey<Block> potatoMoobloomsSpawnableOn;
+	public static final TagKey<Block> potatoMoobloomPathfindingFavor;
 	public static final TagKey<BannerPattern> bannerPatternFrog;
 	public static final TagKey<Structure> ancientHouse;
 	public static final TagKey<Structure> ancientPortal;
@@ -43,6 +45,8 @@ public class TagKeyRegistry {
 		eonizedFlowersBlock = TagKey.of(RegistryKeys.BLOCK, new Identifier("mclmaf2024", "eonized_flowers"));
 		moobloomsSpawnableOn = TagKey.of(RegistryKeys.BLOCK, new Identifier("mclmaf2024", "moobloom_spawnable_on"));
 		moobloomPathfindingFavor = TagKey.of(RegistryKeys.BLOCK, new Identifier("mclmaf2024", "moobloom_pathfinding_favor"));
+		potatoMoobloomsSpawnableOn = TagKey.of(RegistryKeys.BLOCK, new Identifier("mclmaf2024", "potato_moobloom_spawnable_on"));
+		potatoMoobloomPathfindingFavor = TagKey.of(RegistryKeys.BLOCK, new Identifier("mclmaf2024", "potato_moobloom_pathfinding_favor"));
 		bannerPatternFrog = TagKey.of(RegistryKeys.BANNER_PATTERN, new Identifier("mclmaf2024", "pattern_item/frog"));
 		ancientHouse = TagKey.of(RegistryKeys.STRUCTURE, new Identifier("mclmaf2024", "ancient_house"));
 		ancientPortal = TagKey.of(RegistryKeys.STRUCTURE, new Identifier("mclmaf2024", "ancient_portal"));

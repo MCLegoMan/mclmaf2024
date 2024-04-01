@@ -6,6 +6,7 @@ import com.mclegoman.mclmaf2024.common.registry.TagKeyRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.item.ItemStack;
@@ -14,7 +15,10 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
 
 public class PotatoMoobloomEntity extends MoobloomEntity {
 	public PotatoMoobloomEntity(EntityType<? extends MoobloomEntity> entityType, World world) {
@@ -44,6 +48,12 @@ public class PotatoMoobloomEntity extends MoobloomEntity {
 	}
 	public MoobloomEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
 		return EntityRegistry.ancientMoobloom.create(serverWorld);
+	}
+	public float getPathfindingFavor(BlockPos pos, WorldView world) {
+		return world.getBlockState(pos.down()).isIn(TagKeyRegistry.potatoMoobloomPathfindingFavor) ? 10.0F : world.getPhototaxisFavor(pos);
+	}
+	public boolean canSpawn(WorldAccess world, SpawnReason spawnReason) {
+		return world.getBlockState(this.getBlockPos().down()).isIn(TagKeyRegistry.potatoMoobloomsSpawnableOn) && isLightLevelValidForNaturalSpawn(world, this.getBlockPos());
 	}
 	public boolean isEonizeable() {
 		return false;
