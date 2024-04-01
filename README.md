@@ -122,4 +122,5 @@ _This mod was created for April Fools' 2024, and is likely to contain bugs. Use 
 
 Licensed under LGPL-3.0-or-later.  
 
-**This mod is not affiliated with/endorsed by Mojang Studios or Microsoft.**
+**This mod is not affiliated with/endorsed by Mojang Studios or Microsoft.**  
+The Minecraft Logo, name, and some game assets are property of Mojang Studios and fall under Minecraft EULA.  

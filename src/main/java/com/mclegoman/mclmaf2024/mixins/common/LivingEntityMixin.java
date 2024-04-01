@@ -122,8 +122,9 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
 			float dimensionHeight = this.getWorld().getDimension().height();
-			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd) {
+			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
 					gravity *= 0.8;
@@ -133,6 +134,9 @@ public abstract class LivingEntityMixin extends Entity {
 				}
 				if (isEnd) {
 					gravity *= 0.2;
+				}
+				if (isPotato) {
+					gravity *= 0.5;
 				}
 				if (isAntiGravity) {
 					gravity *= ((GravityEnchantment) EnchantmentRegistry.antiGravity).gravityMultiplier;
@@ -159,7 +163,8 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd) {
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
+			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
 					gravity *= 2.0;
@@ -169,6 +174,9 @@ public abstract class LivingEntityMixin extends Entity {
 				}
 				if (isEnd) {
 					gravity *= 8.0;
+				}
+				if (isPotato) {
+					gravity *= 5.0;
 				}
 				if (isAntiGravity) {
 					gravity *= ((GravityEnchantment) EnchantmentRegistry.antiGravity).safeFallDistanceMultiplier;
@@ -190,7 +198,8 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd) {
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
+			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
 					gravity *= 0.8;
@@ -200,6 +209,9 @@ public abstract class LivingEntityMixin extends Entity {
 				}
 				if (isEnd) {
 					gravity *= 0.2;
+				}
+				if (isPotato) {
+					gravity *= 0.5;
 				}
 				if (isAntiGravity) {
 					gravity *= ((GravityEnchantment) EnchantmentRegistry.antiGravity).fallDamageMultiplier;
@@ -215,8 +227,8 @@ public abstract class LivingEntityMixin extends Entity {
 	private void mclmaf2024$knockbackOnDamage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
 		if (this.isAlive()) {
 			// Knockback attacker entity when attacking.
-			if (source.getSource() != this) {
-				this.getWorld().addParticle(ParticleTypes.GUST_EMITTER_SMALL, this.getX(), this.getY(), this.getZ(), 1.0, 0.0, 0.0);
+			if (source.getSource() != null && source.getSource() != this) {
+				this.getWorld().addParticle(ParticleTypes.GUST_EMITTER_SMALL, source.getSource().getX(), source.getSource().getY(), source.getSource().getZ(), 1.0, 0.0, 0.0);
 				if (source.getSource() instanceof LivingEntity) {
 					Knockback.knockbackEntity(this.getWorld(), (LivingEntity) source.getSource(), 5.0F, 1.2F, SoundCategory.PLAYERS);
 				} else {
