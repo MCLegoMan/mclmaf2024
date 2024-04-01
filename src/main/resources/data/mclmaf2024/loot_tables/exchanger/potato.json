@@ -659,6 +659,21 @@
 					"type": "minecraft:item",
 					"name": "minecraft:black_potato_peels_block",
 					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato",
+					"weight": 1
 				}
 			],
 			"rolls": 1.0

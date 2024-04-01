@@ -1,5 +1,8 @@
 {
 	"values": [
+		"minecraft:potato",
+		"minecraft:baked_potato",
+		"minecraft:poisonous_potato",
 		"minecraft:poisonous_potato_plant",
 		"minecraft:poisonous_potato_fries",
 		"minecraft:poisonous_potato_slices",

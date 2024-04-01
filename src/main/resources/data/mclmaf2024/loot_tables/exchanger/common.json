@@ -466,21 +466,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:baked_potato",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potato",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
           "weight": 1
         },
