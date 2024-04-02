@@ -22,6 +22,7 @@ public class ItemRegistry {
 	public static final Item eonizedShortGrass;
 	public static final Item exchanger;
 	public static final Item frogBannerPattern;
+	public static final Item potatoMoobloomSpawnEgg;
 	public static final Item ancientMoobloomSpawnEgg;
 	public static final Item moobloomSpawnEgg;
 	public static final Item flowerArmorTrimSmithingTemplate;
@@ -42,6 +43,7 @@ public class ItemRegistry {
 		eonizedShortGrass = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "eonized_short_grass")), new BlockItem(BlockRegistry.eonizedShortGrass, new Item.Settings()));
 		exchanger = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "exchanger")), new BlockItem(BlockRegistry.exchanger, new Item.Settings()));
 		frogBannerPattern = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "frog_banner_pattern")), new BannerPatternItem(TagKeyRegistry.bannerPatternFrog, (new Item.Settings()).maxCount(1).rarity(Rarity.UNCOMMON)));
+		potatoMoobloomSpawnEgg = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "potato_moobloom_spawn_egg")), new SpawnEggItem(EntityRegistry.potatoMoobloom, 64813, 2250561, new Item.Settings()));
 		ancientMoobloomSpawnEgg = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "ancient_moobloom_spawn_egg")), new SpawnEggItem(EntityRegistry.ancientMoobloom,	16635136, 2250561, new Item.Settings()));
 		moobloomSpawnEgg = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "moobloom_spawn_egg")), new SpawnEggItem(EntityRegistry.moobloom,	16635136, 10592673, new Item.Settings()));
 		flowerArmorTrimSmithingTemplate = Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier("mclmaf2024", "flower_armor_trim_smithing_template")), SmithingTemplateItem.of(ArmorTrimPatternRegistry.flower));

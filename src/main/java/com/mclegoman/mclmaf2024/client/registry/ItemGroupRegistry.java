@@ -37,6 +37,7 @@ public class ItemGroupRegistry {
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(content -> {
 			content.addAfter(Items.MOOSHROOM_SPAWN_EGG, ItemRegistry.moobloomSpawnEgg);
 			content.addAfter(ItemRegistry.moobloomSpawnEgg, ItemRegistry.ancientMoobloomSpawnEgg);
+			content.addAfter(ItemRegistry.ancientMoobloomSpawnEgg, ItemRegistry.potatoMoobloomSpawnEgg);
 		});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
 			content.addAfter(Items.END_PORTAL_FRAME, ItemRegistry.ancientPortalFrame);
@@ -66,6 +67,7 @@ public class ItemGroupRegistry {
 					entries.add(EnchantedBookItem.forEnchantment(new EnchantmentLevelEntry(EnchantmentRegistry.antiAntiGravity, 1)));
 					entries.add(ItemRegistry.moobloomSpawnEgg);
 					entries.add(ItemRegistry.ancientMoobloomSpawnEgg);
+					entries.add(ItemRegistry.potatoMoobloomSpawnEgg);
 				})
 				.build());
 	}

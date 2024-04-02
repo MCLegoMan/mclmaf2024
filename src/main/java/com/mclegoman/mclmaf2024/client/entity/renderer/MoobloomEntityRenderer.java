@@ -21,7 +21,7 @@ public class MoobloomEntityRenderer extends MobEntityRenderer<MoobloomEntity, Co
 
 	@Override
 	public Identifier getTexture(MoobloomEntity entity) {
-		if (entity instanceof AncientMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/potato_moobloom.png");
+		if (entity instanceof AncientMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/ancient_moobloom/ancient_moobloom.png");
 		else if (entity instanceof PotatoMoobloomEntity) return new Identifier("mclmaf2024", "textures/entity/potato_moobloom/potato_moobloom.png");
 		else return new Identifier("mclmaf2024", "textures/entity/moobloom/moobloom.png");
 	}
