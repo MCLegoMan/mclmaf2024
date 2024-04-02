@@ -12,4 +12,3 @@ I will accept pull requests for any community updates that fix bugs.
 - The portal room should really be underground however blocks generate inside of it even though they should be air.
 
 If updating to a non-potato verison, use this branch.
-- The title screen should also be ported over, it should only need to have it's namespace changed to minecraft afaik.
