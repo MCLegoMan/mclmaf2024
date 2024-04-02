@@ -17,8 +17,10 @@
 		"client.DebugHudMixin",
 		"client.GameRendererMixin",
 		"client.LivingEntityRendererMixin",
+		"client.LogoDrawerMixin",
 		"client.MouseMixin",
-		"client.PigEntityRendererMixin"
+		"client.PigEntityRendererMixin",
+		"client.TitleScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
