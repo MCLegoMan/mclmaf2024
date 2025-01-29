@@ -1,9 +1,11 @@
 {
   "placement": {
-    "type": "minecraft:random_spread",
+    "type": "minecraft:concentric_rings",
+    "count": 64,
+    "distance": 48,
+    "preferred_biomes": "#mclmaf2024:ancient_portal_biased_to",
     "salt": 23302048,
-    "separation": 4,
-    "spacing": 28
+    "spread": 6
   },
   "structures": [
     {

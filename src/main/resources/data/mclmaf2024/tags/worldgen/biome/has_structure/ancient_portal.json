@@ -1,6 +1,7 @@
 {
 	"values": [
 		"mclmaf2024:dandelion_fields",
-		"minecraft:sunflower_plains"
+		"minecraft:sunflower_plains",
+		"#minecraft:is_overworld"
 	]
 }

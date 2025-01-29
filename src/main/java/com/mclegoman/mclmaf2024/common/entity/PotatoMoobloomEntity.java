@@ -1,12 +1,19 @@
 package com.mclegoman.mclmaf2024.common.entity;
 
+import com.mclegoman.mclmaf2024.common.entity.helper.Knockback;
 import com.mclegoman.mclmaf2024.common.registry.EntityRegistry;
 import com.mclegoman.mclmaf2024.common.registry.SoundEventRegistry;
 import com.mclegoman.mclmaf2024.common.registry.TagKeyRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.ai.goal.ActiveTargetGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.entity.attribute.DefaultAttributeContainer;
+import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.item.ItemStack;
@@ -72,5 +79,28 @@ public class PotatoMoobloomEntity extends MoobloomEntity {
 	}
 	public boolean isBreedingItem(ItemStack stack) {
 		return stack.isIn(TagKeyRegistry.ancientMoobloomFood);
+	}
+	protected void initGoals() {
+		super.initGoals();
+		this.targetSelector.add(0, new ActiveTargetGoal<>(this, MoobloomEntity.class, true, (livingEntity) -> !(livingEntity instanceof PotatoMoobloomEntity)));
+		this.goalSelector.add(1, new MeleeAttackGoal(this, 1.0, false));
+	}
+	public boolean onKilledOther(ServerWorld world, LivingEntity other) {
+		boolean output = super.onKilledOther(world, other);
+		this.getWorld().playSound(null, this.getBlockPos(), getEonizeSound(), this.getSoundCategory(), 1.0F, 1.0F);
+		if (other instanceof MoobloomEntity moobloomEntity) {
+			PotatoMoobloomEntity entity = moobloomEntity.convertTo(EntityRegistry.potatoMoobloom, false);
+			if (entity != null) {
+				entity.initialize(world, world.getLocalDifficulty(entity.getBlockPos()), SpawnReason.CONVERSION, null);
+				if (!this.isSilent()) world.syncWorldEvent(null, 1051, this.getBlockPos(), 0);
+				output = false;
+			}
+		}
+		this.getWorld().addParticle(ParticleTypes.GUST_EMITTER_SMALL, this.getX(), this.getY(), this.getZ(), 1.0, 0.0, 0.0);
+		Knockback.knockbackNearbyEntities(this.getWorld(), this, 2.5F, 0.6F, this.getSoundCategory());
+		return output;
+	}
+	public static DefaultAttributeContainer.Builder createAttributes() {
+		return MoobloomEntity.createAttributes().add(EntityAttributes.GENERIC_FOLLOW_RANGE, 35.0).add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 10.0);
 	}
 }

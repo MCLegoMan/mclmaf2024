@@ -2,11 +2,69 @@
   "elements": [
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mclmaf2024:ancient_portals/ancient_portal",
-        "processors": {
-          "processors": []
-        },
+        "element_type": "minecraft:list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_empty",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_full",
+            "processors": "mclmaf2024:quarter_rot",
+            "projection": "rigid"
+          }
+        ],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_empty",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_full",
+            "processors": "mclmaf2024:half_rot",
+            "projection": "rigid"
+          }
+        ],
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_empty",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "mclmaf2024:ancient_portals/ancient_portal_full",
+            "processors": "mclmaf2024:three_quarter_rot",
+            "projection": "rigid"
+          }
+        ],
         "projection": "rigid"
       },
       "weight": 1

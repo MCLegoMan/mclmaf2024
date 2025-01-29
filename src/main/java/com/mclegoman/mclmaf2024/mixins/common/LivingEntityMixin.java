@@ -122,7 +122,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
 			float dimensionHeight = this.getWorld().getDimension().height();
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
@@ -163,7 +163,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
@@ -198,7 +198,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
@@ -229,11 +229,17 @@ public abstract class LivingEntityMixin extends Entity {
 			// Knockback attacker entity when attacking.
 			if (source.getSource() != null && source.getSource() != this) {
 				this.getWorld().addParticle(ParticleTypes.GUST_EMITTER_SMALL, source.getSource().getX(), source.getSource().getY(), source.getSource().getZ(), 1.0, 0.0, 0.0);
+				float velocity = switch (this.getWorld().getDifficulty()) {
+					case PEACEFUL -> 0.75F;
+					case EASY -> 1.4F;
+					case NORMAL -> 2.8F;
+					case HARD -> 5.4F;
+				};
 				if (source.getSource() instanceof LivingEntity) {
-					Knockback.knockbackEntity(this.getWorld(), (LivingEntity) source.getSource(), 5.0F, 1.2F, SoundCategory.PLAYERS);
+					Knockback.knockbackEntity(this.getWorld(), (LivingEntity) source.getSource(), 5.0F, velocity, SoundCategory.PLAYERS);
 				} else {
 					if (source.getSource() instanceof ProjectileEntity) {
-						Knockback.knockbackEntity(this.getWorld(), (LivingEntity) ((ProjectileEntity) source.getSource()).getOwner(), 5.0F, 1.2F, SoundCategory.PLAYERS);
+						Knockback.knockbackEntity(this.getWorld(), (LivingEntity) ((ProjectileEntity) source.getSource()).getOwner(), 5.0F, velocity, SoundCategory.PLAYERS);
 					}
 				}
 			}
