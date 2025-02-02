@@ -26,9 +26,13 @@
 			"minecraft:lake_lava_surface"
 		],
 		[
-			"minecraft:amethyst_geode"
+			"minecraft:amethyst_geode",
+			"minecraft:potato_geode"
 		],
-		[],
+		[
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
 		[],
 		[],
 		[
@@ -46,6 +50,7 @@
 			"minecraft:ore_iron_upper",
 			"minecraft:ore_iron_middle",
 			"minecraft:ore_iron_small",
+			"minecraft:ore_poisonous_potato",
 			"minecraft:ore_gold",
 			"minecraft:ore_gold_lower",
 			"minecraft:ore_redstone",
@@ -69,8 +74,14 @@
 		],
 		[
 			"minecraft:glow_lichen",
+			"minecraft:patch_tall_grass_2",
 			"mclmaf2024:dandelion_fields_flowers",
-			"minecraft:patch_grass_plain"
+			"minecraft:trees_plains",
+			"minecraft:patch_grass_plain",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal",
+			"minecraft:patch_sugar_cane",
+			"minecraft:patch_pumpkin"
 		],
 		[
 			"minecraft:freeze_top_layer"
@@ -85,6 +96,12 @@
 				"maxCount": 8,
 				"minCount": 8,
 				"weight": 10
+			},
+			{
+				"type": "minecraft:batato",
+				"maxCount": 16,
+				"minCount": 8,
+				"weight": 13
 			}
 		],
 		"axolotls": [],
@@ -94,6 +111,12 @@
 				"maxCount": 8,
 				"minCount": 4,
 				"weight": 8
+			},
+			{
+				"type": "mclmaf2024:moobloom",
+				"maxCount": 4,
+				"minCount": 1,
+				"weight": 2
 			}
 		],
 		"misc": [],

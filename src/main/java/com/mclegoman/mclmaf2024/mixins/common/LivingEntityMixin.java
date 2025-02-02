@@ -122,7 +122,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
 			float dimensionHeight = this.getWorld().getDimension().height();
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
@@ -163,7 +163,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
@@ -198,7 +198,7 @@ public abstract class LivingEntityMixin extends Entity {
 			boolean isAncientWorld = this.getWorld().getRegistryKey() == WorldRegistry.ancientWorld;
 			boolean isNether = this.getWorld().getRegistryKey() == World.NETHER;
 			boolean isEnd = this.getWorld().getRegistryKey() == World.END;
-			boolean isPotato = this.getWorld().getRegistryKey() == World.POTATO;
+			boolean isPotato = this.getWorld().getRegistryKey() == World.field_50737;
 			if (isAntiGravity || isAntiAntiGravity || isAncientWorld || isNether || isEnd || isPotato) {
 				double gravity = cir.getReturnValue();
 				if (isAncientWorld) {
