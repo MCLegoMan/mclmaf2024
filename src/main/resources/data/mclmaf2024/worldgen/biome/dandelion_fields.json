@@ -15,6 +15,12 @@
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000
 		},
+		"music": {
+			"max_delay": 24000,
+			"min_delay": 12000,
+			"replace_current_music": true,
+			"sound": "mclmaf2024:music.mysterious"
+		},
 		"sky_color": 7842047,
 		"water_color": 4159204,
 		"water_fog_color": 329011
@@ -76,6 +82,7 @@
 			"minecraft:glow_lichen",
 			"minecraft:patch_tall_grass_2",
 			"mclmaf2024:dandelion_fields_flowers",
+			"mclmaf2024:potato_flowers",
 			"minecraft:trees_plains",
 			"minecraft:patch_grass_plain",
 			"minecraft:brown_mushroom_normal",

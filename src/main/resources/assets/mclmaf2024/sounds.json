@@ -40,6 +40,11 @@
 			"mclmaf2024:block/ancient_portal_frame/eonize"
 		],
 		"subtitle": "subtitles.mclmaf2024.block.ancient_portal_frame.eonize"
+	},
+	"music.mysterious": {
+		"sounds": [
+			"mclmaf2024:music/mysterious"
+		]
 	}
 }
 
